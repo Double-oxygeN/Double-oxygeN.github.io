@@ -1,3 +1,3 @@
 # My GitHub Pages
 
-http://double-oxygen.github.io/
+http://double-oxygen.net/
