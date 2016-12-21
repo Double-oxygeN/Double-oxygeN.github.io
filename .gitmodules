@@ -1,0 +1,3 @@
+[submodule "pideserver"]
+	path = pideserver
+	url = https://git.heroku.com/pideserver.git
