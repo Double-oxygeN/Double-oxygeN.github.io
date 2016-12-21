@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="generator" content="HeTeMuLu Creator Ver.1.20β2">
+	<meta name="description" content="音楽、絵画、雑学、ゲームその他様々な情報を提供するサイトです。">
+	<meta name="author" content="倍酸化空間">
+	<title>倍酸素供給空間 : le PIDELE</title>
+	<link rel="stylesheet" type="text/css" href="game.css" media="all">
+	<link rel="stylesheet" type="text/css" href="pidele.css">
+	<script src="pidele_v150.js"></script>
+</head>
+
+<body onload="JavaScript: gtitle()">
+
+	<div id="header">
+		<h1 align="center" style="font-size: 50px; font-weight: 500; ">&lt;&lt; <a href="../index.html">倍酸素供給空間</a> &gt;&gt;</h1>
+	</div>
+
+	<div id="contents">
+		<h2>le PIDELE</h2><br>
+		<canvas id="gboard" width="435" height="435"></canvas><br>
+		<button id="tutor" onClick="JavaScript: tutorial()">TUTORIAL</button>
+		<button id="pregame" onClick="JavaScript: pregame()">START</button>
+		<button id="prev" onClick="JavaScript: prevButton()">&lt;&lt; PREV</button>
+		<button id="next" onClick="JavaScript: nextButton()">NEXT &gt;&gt;</button>
+		<button id="kif" onClick="JavaScript: dataload()">DATALOAD</button>
+		<button id="matta" onClick="JavaScript: matta()">RETRACT!</button>
+		<br>
+		<form id="sengo">
+			<p>先手 :
+				<select name="first" id="first">
+		<option value="0">PLAYER</option>
+		<option value="2">COM(弱)</option>
+		<option value="1">COM(中)</option>
+		<option value="3">COM(強)</option>
+		<option value="4">COM(兇)</option>
+	</select> 後手 :
+				<select name="second" id="second">
+		<option value="0">PLAYER</option>
+		<option value="2">COM(弱)</option>
+		<option value="1">COM(中)</option>
+		<option value="3">COM(強)</option>
+		<option value="4">COM(兇)</option>
+	</select> 盤の大きさ :
+				<select name="large" id="large">
+		<option value="4">4x4</option>
+		<option value="5">5x5</option>
+		<option value="6">6x6</option>
+		<option value="7">7x7</option>
+		<option value="8" selected>8x8</option>
+		<option value="9">9x9</option>
+		<option value="10">10x10</option>
+		<option value="11">11x11</option>
+		<option value="12">12x12</option>
+	</select>
+			</p>
+		</form>
+		<form name="kif">
+			<textarea id="tea" type="text" name="tea" class="std" cols=48 rows=8></textarea><br>
+		</form>
+		<p align="right"><br><a href="top.html">戻る</a></p>
+	</div>
+
+	<div id="menu">
+		<form method=post>
+			<select name="navi">
+  <!-- valueにURLを記入 -->
+  <option value=""></option>
+  <option value="../music/top.html">Music</option>
+  <option value="../novels/top.html">Novels</option>
+  <option value="../arts/top.html">Arts</option>
+  <option value="../language/top.html">Language</option>
+  <option value="../links.html">Links</option>
+  <option value="../index.html">Top page</option>
+ </select>
+			<input type=button value="Go!" onClick="location.href = this.form.navi.options[this.form.navi.selectedIndex].value">
+		</form>
+
+	</div>
+
+	<br class="float-clear">
+
+	<div id="footer">
+		<hr size="2" color="green">
+		<div align="center">
+			<p>&copy;2015:Space2O<small>2</small></p>
+		</div>
+
+</body>
+
+</html>
