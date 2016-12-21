@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'paasti';
+	src: url('paasti_mapzaali.otf');
+}
+
+h2 {
+	font-family: 'paasti';
+	fontsize: 400%;
+}
